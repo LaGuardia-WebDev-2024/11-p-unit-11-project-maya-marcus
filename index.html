@@ -29,36 +29,52 @@ Select ONE Additional
       <li>
         <h3 id="mem1">Memory #1</h3>
         <p>More about this memory.</p>
+        <img
+        class="beach"
+        src="https://admin.onlyinyourstate.com/wp-content/uploads/sites/2/2025/03/Jupiter-Beach.jpg";
+        width="350";
       </li>
 
       <li>
         <h3 id="mem2">Memory #2</h3>
         <p>More about this memory.</p>
+        <img
+        class="oneact"
+        src="https://www.shutterstock.com/image-vector/one-act-vintage-drama-faces-260nw-2487404145.jpg";
       </li>
 
       <li>
         <h3 id="mem3">Memory #3</h3>
         <p>More about this memory</p>
+        <img
+        class="urine"
+        src="https://m.media-amazon.com/images/I/71tzsSPAcmL._UF1000,1000_QL80_.jpg";
+        width="300"
       </li>
     </ol>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
-
+$(".beach").hide()
+$(".oneact").hide()
+$(".urine").hide()
       // ======================== Button #1
       $("#mem1-button").click(function () {
         $("#mem1").css("color", "purple");
+        $(".beach").show(1000)
       });
 
       // ======================== Button #2
       $("#mem2-button").click(function () {
         $("#mem2").css("color", "blue");
+        $(".oneact").show(1000)
       });
 
       // ======================== Button #3
       $("#mem3-button").click(function () {
         $("#mem3").css("color", "green");
-        $("#mem3").text("Coding Parties! 🎉");
+        $(".urine").show(1000)
+       
       });
 
 
