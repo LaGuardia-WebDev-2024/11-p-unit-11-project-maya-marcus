@@ -9,4 +9,25 @@ html {
 /* ======================== CSS Rule #2 */
 h1 {
   font-family: "Poetsen One", sans-serif;
+
 }
+img{
+  border:3px solid rgb(0, 153, 255);
+  border-radius:20px
+}
+
+#memp1
+{
+  font-family: fantasy;
+  color: rgb(173,216,230);
+}
+#memp2{ 
+  font-family: fantasy;
+  color: rgb(0,100,0);
+}
+#memp3{
+  font-family: fantasy;
+  color: rgb(255,140,0);
+}
+
+
